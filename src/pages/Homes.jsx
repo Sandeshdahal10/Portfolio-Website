@@ -1,6 +1,8 @@
 import Navbar from "../components/NavBar.jsx";
 import HeroContainer from "../components/HeroContainer.jsx";
 import Footer from "../components/Footer.jsx";
+import { Link } from "react-router-dom";
+import Card from "../components/Card.jsx";
 
 function Homes() {
   return (
@@ -34,6 +36,16 @@ function Homes() {
         </div>
       </div>
       <HeroContainer />
+      <Card />
+      <div className="flex items-center justify-center mt-10 mb-10">
+        <Link to="/projects">
+          <button className="flex items-center justify-center bg-primary text-white px-6 py-3 rounded-2xl">
+            <span className="text-2xl font-general-medium text-white mb-1">
+              More Projects
+            </span>
+          </button>
+        </Link>
+      </div>
       <Footer />
     </>
   );

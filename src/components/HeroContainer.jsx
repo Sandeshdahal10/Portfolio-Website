@@ -22,7 +22,7 @@ function HeroContainer() {
           <input
             type="text"
             placeholder="Search Projects"
-            className=" border-gray-200 rounded-md justify-between pl-3 font-general-bold   py-2  text-sm sm:text-medium sm:px-4 width-[90%] bg-primary-light"
+            className=" border-gray-300 rounded-md justify-between pl-3 font-general-bold   py-2  text-sm sm:text-medium sm:px-4 width-[90%] bg-primary-light focus:ring-2 focus:ring-primary-dark focus:outline-none resize-none"
           />
         </div>
         {/* filter project */}
@@ -48,123 +48,6 @@ function HeroContainer() {
               Branding
             </option>
           </select>
-        </div>
-      </div>
-      <div className="flex items-center justify-evenly mt-10 mb-10 w-[100%] h-[650px] flex-wrap gap-y-20">
-        <div className="flex flex-col items-center justify-center w-[25%] px-2 rounded-lg">
-          {/* image */}
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800  justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center w-[25%] px-2 rounded-lg">
-          {/* image */}
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800    justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center ">
-          {/* image */}
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800  justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center ">
-          {/* image */}
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800  justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center ">
-          {/* image */}
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800  justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center ">
-          <div className="flex flex-col items-center justify-center w-[100%] mb-3 h-[200px]  rounded-lg shadow-md">
-            <img
-              src="./webapplication.svg"
-              alt="photo"
-              className="h-[200px] w-[350px]"
-            />
-          </div>
-          <div className="flex flex-col items-center justify-center w-[100%] mt-1 ">
-            <h2 className="text-2xl font-general-bold text-gray-800  justify-center items-center">
-              Google Health Platform
-            </h2>
-            <h3 className="text-xl font-general-semibold text-gray-600  justify-center items-center">
-              Web Application
-            </h3>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-center w-[100%] h-[50px] ">
-          <Link to="/projects">
-            <button className="bg-primary py-2 px-6 rounded-lg ">
-              <span className="font-medium text-white">More Projects</span>
-            </button>
-          </Link>
         </div>
       </div>
     </>
